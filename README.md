@@ -18,8 +18,8 @@ Bu Python masaüstü uygulaması, Gate.io API'si üzerinden **USDT ile işlem g�
 
 ### 1. Bu repoyu klonla:
 ```bash
-git clone https://github.com/kullaniciadi/gate-volume-app.git
-cd gate-volume-app
+git clone https://github.com/ismailebci/Gateiopricevolume.git
+cd Gateiopricevolume
 ```
 
 ### 2. Gerekli Python kütüphanelerini yükle:
@@ -34,7 +34,7 @@ sudo apt install python3-tk
 
 ### 3. API Anahtarlarını Ayarla
 
-Proje dizininde `config.py` adında bir dosya oluştur ve içine aşağıdaki şekilde **kendi Gate.io API bilgilerini** gir:
+içine aşağıdaki şekilde **kendi Gate.io API bilgilerini** gir:
 
 ```python
 # config.py
@@ -67,7 +67,7 @@ Uygulama çalıştığında:
 ```
 gate-volume-app/
 ├── app.py           # Ana uygulama dosyası
-├── config.py        # API anahtar bilgileri (sen oluşturacaksın)
+├── config.py        # API anahtar bilgileri 
 ├── requirements.txt # Gerekli kütüphaneler
 └── README.md        # Bu döküman
 ```
