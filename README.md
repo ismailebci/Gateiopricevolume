@@ -42,8 +42,6 @@ API_KEY = "senin_api_key"
 API_SECRET = "senin_api_secret"
 ```
 
-> ⚠️ Bu dosya `.gitignore` içinde yer almalı, böylece GitHub'a yüklenmez.
-
 ---
 
 ## ▶️ Kullanım
